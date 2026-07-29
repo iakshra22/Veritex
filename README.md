@@ -1,4 +1,4 @@
-## SpellWise
+## Veritex
 
 A C++ spell correction and autocorrection system built using Data Structures & Algorithms (DSA), Trie, and Dynamic Programming.
 
