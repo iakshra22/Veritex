@@ -1,5 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"Hello darling!!!";
+    int a=9;
+    int b=6;
+    cout<<"subtraction is: "<<a-b;
 }
