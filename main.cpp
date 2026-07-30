@@ -1,5 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"Hello Wolrd";
+    int a=3;
+    int b=6;
+    cout<<"sum is: "<<a+b;
 }
