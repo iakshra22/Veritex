@@ -1,6 +1,6 @@
 ## Veritex
 
-A C++ spell correction and autocorrection system built using Data Structures & Algorithms (DSA), Trie, and Dynamic Programming.
+A C++ spell correction and autocorrection system built using Data Structures & Algorithms (DSA) and Dynamic Programming.
 
 ## 🚧 Project Status
 
@@ -11,7 +11,6 @@ Features and implementation are being added progressively.
 1. Spell checking
 2. Auto correction
 3. Word suggestions
-4. Trie-based dictionary
 5. Edit Distance (Dynamic Programming)
 6. File-based dictionary support
 7. Fast and efficient word lookup
@@ -19,7 +18,6 @@ Features and implementation are being added progressively.
 ## Tech Stack
 1. C++
 2. Data Structures & Algorithms (DSA)
-3. Trie
 4. Dynamic Programming
 5. File Handling
 
