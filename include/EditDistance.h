@@ -7,7 +7,6 @@
 
 using namespace std;
 
-// Calculates minimum edit operations (Insert, Delete, Replace)
 inline int calculateEditDistance(const string& s1, const string& s2) {
     int m = s1.length();
     int n = s2.length();
@@ -23,9 +22,9 @@ inline int calculateEditDistance(const string& s1, const string& s2) {
                 dp[i][j] = dp[i - 1][j - 1];
             } else {
                 dp[i][j] = 1 + min({
-                    dp[i - 1][j],    // Deletion
-                    dp[i][j - 1],    // Insertion
-                    dp[i - 1][j - 1] // Substitution
+                    dp[i - 1][j],   
+                    dp[i][j - 1],   
+                    dp[i - 1][j - 1] 
                 });
             }
         }
