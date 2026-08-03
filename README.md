@@ -10,7 +10,6 @@
 * **Smart Auto-Correct (Dynamic Programming):** Uses the Levenshtein Distance algorithm to compute minimum edit operations (insertions, deletions, substitutions) for misspelled words.
 * **Phonetic Matching (Soundex Algorithm):** Detects phonetically similar mistakes (e.g., matching `"fone"` to `"phone"`).
 * **Word Frequency & Ranking:** Prioritizes suggestions based on usage frequency and edit distance using custom sorting logic.
-* **Context-Aware Suggestions:** Utilizes an adjacency list / graph-based model to evaluate two-word (bigram) context.
 * **Custom User Dictionary:** Allows users to add custom words dynamically at runtime.
 * **Native Desktop GUI:** Built using native WinAPI for a lightweight, dependency-free graphical interface.
 
